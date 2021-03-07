@@ -33,6 +33,11 @@
 // every other tick, lower the resolution to 2.
 #define ENCODER_RESOLUTION 2
 
-#define TAPPING_TERM 210
+#define TAPPING_TERM 200
+
+#define IGNORE_MOD_TAP_INTERRUPT
+#define PERMISSIVE_HOLD
+#define RETRO_TAPPING
+#define TAPPING_TERM_PER_KEY
 
 
