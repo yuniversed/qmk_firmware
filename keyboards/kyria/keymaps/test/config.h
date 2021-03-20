@@ -16,7 +16,6 @@
 
 #pragma once
 
-
 #ifdef OLED_DRIVER_ENABLE
   #define OLED_DISPLAY_128X64
 #endif
@@ -34,12 +33,6 @@
 // every other tick, lower the resolution to 2.
 #define ENCODER_RESOLUTION 2
 
-#define TAPPING_TERM 200 
+#define TAPPING_TERM 210
 
-#define IGNORE_MOD_TAP_INTERRUPT
-#define PERMISSIVE_HOLD
-#define TAPPING_TERM_PER_KEY
-
-void caps_word_enable(void);
-void caps_word_disable(void);
 
